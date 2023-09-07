@@ -1,0 +1,25 @@
+Nama : Raenald Syaputra
+Email : raenaldsyaputra57@gmail.com
+
+Di sini saya membuat sebuah website yang bertemakan Meme.
+Adapun feature JavaScript yang terdapat dalam website yang saya buat adalah sebagai berikut :
+
+1. Di samping kanan atas pada bagian navigasi terdapat 2 Icon berupa Icon pencarian dan Love.
+	- Jika Icon pencarian di klik maka akan memunculkan kolom input pencarian. (bersifat toggle / dapat muncul atau menghilang ketika di klik / on & of)
+	- Jika Icon Love di klik maka akan merubah warna dari Icon Love menjadi warna-warni. (bersifat toggle / dapat muncul atau menghilang ketika di klik / on & of)
+
+2. Jika mengklik opsi character pada navigasi, maka akan di arahkan ke bagian character meme. Dalam bagian character meme, saya membuat sebuah pergantian gambar 
+yang dapat berganti secara otomatis (saya membuat logikanya dengan JavaScript menggunakan setInterval untuk memberikan efek looping dengan jeda waktu 3s).
+Jika di lihat di bagian bawahnya terdapat 4 dot yang berjejer, masing - masing dari dot tersebut mengarahkan ke gambar-gambar tertentu (sudah saya setting di JavaScript).
+Namun, hal yang unik dari gambar-gambar tersebut adalah ketika user mengklik dot urutan ketiga dari deretan dot maka akan memunculkan wajah the rock/Dwayne Johnson yang disertai
+dengan musik khas meme-nya.
+
+(fitur ketiga dan keempat bekerja dalam ukuran max-width : 850px (ukuran tablet atau Ipad) s/d ukuran mobile -> media query)
+
+3. Feature JavaScript yang ketiga akan muncul ketika ukuran width berada di bawah 850px dalam bentuk Icon Bar (3 garis buah) yang berposisi
+di navigasi sebelah kanan atas. Fungsinya untuk meminimalisir ukuran navigasi sebelumnya yang horizontal menjadi vertikal kebawah agar mudah digunakan oleh
+pengguna mobile maupun tablet.
+
+4. Feature JavaScript yang keempat berada pada bagian About Us di bagian Biodata, Jika sebelumnya biodata di tampilkan dalam bentuk vertikal ke bawah, maka hal ini
+tidak memungkinkan untuk ukuran tablet ataupun mobile, maka oleh karena itu bentuknya saya ubah menjadi tabel yang menyamping ke samping, dan tabel ini tidak akan langsung
+muncul di awal, melainkan harus mengklik foto profile saya dulu (ada instruksinya di web) baru tabel yang dimaksud akan muncul.
